@@ -1,0 +1,30 @@
+# SENTINEL: IEEE TMLCN 2026 Dependencies
+# Production-ready vector compression framework
+
+# Core ML/DL (install via PyTorch index separately if using CUDA)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Embeddings
+sentence-transformers>=2.2.2
+transformers>=4.30.0,<5.0.0
+
+# Vector Database
+qdrant-client>=1.16.0
+
+# Data & ML
+datasets>=2.19.0
+numpy>=1.24.0
+scikit-learn>=1.4.0
+scipy>=1.13.0
+pandas>=1.5.0
+tqdm>=4.65.0
+
+# App
+streamlit>=1.36.0
+
+# Optional: Development
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0

@@ -1,0 +1,73 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2026-01-29 08:45:05",
+    "paper": "IEEE TMLCN 2026: Sentinel Edge-Intelligence Framework",
+    "version": "v2.0 - Integrated with Multi-Agent System",
+    "phase": "Final Benchmark (IEEE Submission)"
+  },
+  "system_info": {
+    "device": "cpu",
+    "target_scale": 1000,
+    "actual_documents": 1000,
+    "actual_queries": 372
+  },
+  "evaluation_metrics": {
+    "recall_at_k": {
+      "1": 0.19598587642942486,
+      "5": 0.4113532599419695,
+      "10": 0.5005109660351595,
+      "20": 0.5005109660351595
+    },
+    "precision_at_k": {
+      "1": 0.4112903225806452,
+      "5": 0.20430107526881766,
+      "10": 0.12741935483871003,
+      "20": 0.06370967741935502
+    },
+    "map": 0.34381684618291763,
+    "ndcg_at_k": {
+      "1": 0.4112903225806452,
+      "5": 0.3954869143676506,
+      "10": 0.4234338731788107,
+      "20": 0.4233180783480127
+    }
+  },
+  "fidelity": {
+    "recall_at_10": 0.5005109660351595,
+    "precision_at_10": 0.12741935483871003,
+    "map": 0.34381684618291763,
+    "ndcg_at_10": 0.4234338731788107,
+    "status": "GOOD"
+  },
+  "compression": {
+    "ratio": 32.0,
+    "bytes_before": 1536,
+    "bytes_after": 48,
+    "method": "RaBitQ + Binary Quantization"
+  },
+  "network_analysis": {
+    "baseline_cloud_gbps": 160.0,
+    "sentinel_edge_gbps": 5.0,
+    "network_savings_gbps": 155.0,
+    "backhaul_reduction_percent": 96.875,
+    "backhaul_reduction": "96.9%"
+  },
+  "multi_agent_system": {
+    "num_agents": 5,
+    "agents": [
+      "Forensic Auditor",
+      "Risk Analyst",
+      "Compliance Officer",
+      "Portfolio Manager",
+      "CFO"
+    ],
+    "consensus_method": "weighted_vote",
+    "queries_analyzed": 372,
+    "success_rate": 1.0
+  },
+  "extrapolation": {
+    "target_scale_documents": 1000,
+    "extrapolated_from_benchmark": 1000,
+    "scaling_factor": 1.0
+  }
+}
