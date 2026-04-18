@@ -1,17 +1,3 @@
-"""
-SENTINEL IEEE Final Benchmark - Production Ready (v2.0)
-Complete integrated implementation with:
-  - 6 dataset loading methods
-  - 5 specialized financial agents + orchestration
-  - End-to-end pipeline orchestration
-  - Comprehensive evaluation metrics
-
-This is the OFFICIAL benchmark for the IEEE TMLCN 2026 paper submission.
-
-Expected Runtime: ~1.5-2 hours on CPU, ~10-15 minutes on GPU
-Output: results/final_ieee_data.json with complete metrics and agent analysis
-"""
-
 import os
 import sys
 import json
